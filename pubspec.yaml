@@ -1,0 +1,22 @@
+name: sokoscript
+description: A simple app to preview Mongolian script text
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+  fonts:
+    - family: MongolFont
+      fonts:
+        - asset: assets/fonts/cmdashitseden.ttf
+        - asset: assets/fonts/MongolianScript.ttf
+
